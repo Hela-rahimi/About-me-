@@ -1,0 +1,107 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe4e1; /* A soft pink background */
+    color: #333333; /* A dark grey color for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #ffccd5; /* A slightly darker pink for the header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #800080; /* A purple color for the main heading */
+    margin: 0;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.intro-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space out the children elements */
+    margin-top: 20px; /* Add some space above the container */
+}
+
+.intro-image {
+    order: 2; /* Place the image container after the text container */
+    margin-left: 20px; /* Add some space between the image and the text */
+    padding: 10px;
+    border: 2px solid #ffb6c1; /* A medium pink border for the image box */
+    border-radius: 8px; /* Rounded corners for the box */
+ 
+}
+
+.intro-text {
+    order: 1; /* Place the text container before the image container */
+    flex: 1; /* Allow the text container to grow and fill the remaining space */
+}
+
+
+
+section p, section ul {
+    background-color: #fff0f5; /* A very light pink for the content background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffccd5; /* Same as the header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p, footer ul {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffccd5; /* Same as the header */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p, footer ul {
+    display: inline-block; /* Display elements inline with some block features */
+    margin: 0;
+    padding: 5px;
+}
+
+footer li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add some space between the inline elements */
+}
+
+footer a {
+    color: #800080; /* Same purple color for links */
+}
+
+.dark-mode {
+    background-color: #333333; /* Dark background for dark mode */
+    color: #ffffff; /* Light text for dark mode */
+    /* Add other styles as needed */
+}
+
+
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+    
